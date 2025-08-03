@@ -1,10 +1,9 @@
 {
   "name": "ipfs-pinata-toolkit",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Easy IPFS integration with Pinata - just provide your JWT and start pinning data to IPFS with one function call!",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js",
     "start": "node example.js",
     "cli": "node cli.js"
   },
@@ -28,12 +27,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/ipfs-pinata-toolkit"
+    "url": "https://github.com/gokkull-15/ipfs-pinata-toolkit.git"
   },
   "bugs": {
-    "url": "https://github.com/your-username/ipfs-pinata-toolkit/issues"
+    "url": "https://github.com/gokkull-15/ipfs-pinata-toolkit/issues"
   },
-  "homepage": "https://github.com/your-username/ipfs-pinata-toolkit#readme",
+  "homepage": "https://github.com/gokkull-15/ipfs-pinata-toolkit#readme",
   "engines": {
     "node": ">=14.0.0"
   },
@@ -44,7 +43,6 @@
     ".env.example",
     "cli.js",
     "example.js",
-    "quick-start.js",
-    "test.js"
+    "quick-start.js"
   ]
 }
